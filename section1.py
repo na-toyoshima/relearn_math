@@ -54,5 +54,5 @@ def any2dec(target, m):
             num = int(target[i])
             
         sum += (m ** n)*num
-        n -= 1
+        n -= 1 #参照のケタを減らして次のループに入る
     return sum
