@@ -1,4 +1,4 @@
-def dec2bin(target):
+def dec2bin(target): #2進数変換
     amari = []
     
     while target != 0:
