@@ -21,7 +21,7 @@ def dec2bin_ex(target): #2進数変換
     while (f != 0):
         temp = f * 2 #小数部×2
         b.append(int(temp)) #整数部
-        f = temp - int(temp) #小数部
+        f = temp - int(temp) #小数部 
         n += 1
         if (n >= 10):
             break
